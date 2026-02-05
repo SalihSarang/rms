@@ -1,6 +1,6 @@
 {
-    "name": "waiter_portel",
-    "short_name": "waiter_portel",
+    "name": "waiter_portal",
+    "short_name": "waiter_portal",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-# waiter_portel
+# waiter_portal
 
 A new Flutter project.
 

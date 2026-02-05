@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "waiter_portel" "\0"
+            VALUE "FileDescription", "waiter_portal" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "waiter_portel" "\0"
+            VALUE "InternalName", "waiter_portal" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "waiter_portel.exe" "\0"
-            VALUE "ProductName", "waiter_portel" "\0"
+            VALUE "OriginalFilename", "waiter_portal.exe" "\0"
+            VALUE "ProductName", "waiter_portal" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
