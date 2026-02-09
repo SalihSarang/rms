@@ -5,7 +5,7 @@ import 'package:manager_portal/features/auth/presentation/bloc/auth_event.dart';
 import 'package:manager_portal/features/auth/presentation/bloc/auth_state.dart';
 import 'package:manager_portal/features/auth/presentation/widgets/auth_button.dart';
 import 'package:manager_portal/features/auth/presentation/widgets/auth_text_field.dart';
-import 'package:manager_portal/features/home/presentation/pages/manager_home_screen.dart';
+import 'package:manager_portal/features/sidebar/presentation/page/sidebar.dart';
 import 'package:rms_design_system/app_colors/primary_colors.dart';
 import 'package:rms_design_system/app_colors/text_colors.dart';
 
@@ -19,9 +19,7 @@ class LoginBody extends StatelessWidget {
         if (state is LoginSuccess) {
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(
-              builder: (context) => ManagerHomeScreen(manager: state.manager),
-            ),
+            MaterialPageRoute(builder: (context) => Sidebar()),
           );
         }
       },

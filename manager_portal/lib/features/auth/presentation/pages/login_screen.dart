@@ -60,12 +60,7 @@ class LoginView extends StatelessWidget {
                   const SizedBox(height: 32),
                   LoginFooter(
                     onHelpTap: () {
-                      // TODO: Implement help functionality
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('Contact your administrator for help.'),
-                        ),
-                      );
+                      //  Implement help functionality
                     },
                   ),
                 ],
