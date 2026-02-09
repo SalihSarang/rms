@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647362299120",
+    "project_id": "rms-project-b8903",
+    "storage_bucket": "rms-project-b8903.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647362299120:android:69d1fe6e8a41468c74ae35",
+        "android_client_info": {
+          "package_name": "com.example.manager_portal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz-uZrHs3gPmkyFwFNDfm-Jov5H-2-5nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

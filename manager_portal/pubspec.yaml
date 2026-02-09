@@ -31,9 +31,23 @@ dependencies:
   flutter:
     sdk: flutter
 
+  rms_shared_package: 
+    path: ../packages/rms_shared_package
+
+  rms_design_system: 
+    path: ../packages/rms_design_system_package
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.8
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  get_it: ^9.2.0
+  collapsible_sidebar: ^2.0.7
+  sidebarx: ^0.17.2
 
 dev_dependencies:
   flutter_test:
