@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:manager_portal/features/staff/presentation/pages/staff_listing_page.dart';
 import 'package:sidebarx/sidebarx.dart';
 import 'package:manager_portal/features/sidebar/presentation/widgets/manager_sidebar_x.dart';
 
@@ -63,7 +64,7 @@ class _SidebarState extends State<Sidebar> {
               physics: const NeverScrollableScrollPhysics(),
               children: const [
                 Center(child: Text('Overview Page')),
-                Center(child: Text('Staff Management Page')),
+                StaffListingScreen(),
                 Center(child: Text('Products Page')),
                 Center(child: Text('Reports Page')),
                 Center(child: Text('Settings Page')),

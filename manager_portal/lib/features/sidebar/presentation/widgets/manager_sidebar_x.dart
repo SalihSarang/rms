@@ -52,7 +52,7 @@ class ManagerSidebarX extends StatelessWidget {
         SidebarXItem(icon: Icons.grid_view_rounded, label: 'Overview'),
         SidebarXItem(
           icon: Icons.people_alt_outlined,
-          label: 'Staff Management',
+          label: 'employ Management',
         ),
         SidebarXItem(icon: Icons.inventory_2_outlined, label: 'Products'),
         SidebarXItem(icon: Icons.analytics_outlined, label: 'Reports'),
